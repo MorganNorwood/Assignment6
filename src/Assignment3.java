@@ -5,12 +5,10 @@ Assignment 3.14 Heads or Tails.
 9/7/2017
 
  */
-import junit.framework.JUnit4TestAdapter;
-import org.junit.runners.JUnit4;
 
 import java.util.Scanner;
 
-public class Assignment3 {
+    public class Assignment3 {
 
     public static void main(String[] args) {
 
