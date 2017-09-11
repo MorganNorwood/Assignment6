@@ -16,13 +16,13 @@ import java.util.Scanner;
         int guess;
 
         num = (int)(Math.random() *2);
-        //making a random int
+        //make a random int
         Scanner input = new Scanner (System.in);
-
+        //enters question
         System.out.print("Heads or Tails? (enter 0 for heads and 1 for tails) ");
         guess = input.nextInt();
 
-        //code will determine if the number entered is the same as the random number (between 0-1) are the same.
+        //determine if the number entered is the same as the random number (between 0-1) are the same.
         if (guess == num) {
             System.out.println("You win");
         }else{
